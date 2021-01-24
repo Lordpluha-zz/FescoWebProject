@@ -4,13 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="shortcut icon" href="#" type="image/x-icon">
+	<link rel="shortcut icon" href="img/header/Icon.png" type="image/png">
 
 	<title>Fesco</title>
 
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<link rel="stylesheet" href="js/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.min.css">
-	<script src="js/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script>   
+	<link rel="stylesheet" href="js/plugs/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.min.css">
+	<script src="js/plugs/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script>   
 	<script>
 		(function($){
 			$(window).load(function(){

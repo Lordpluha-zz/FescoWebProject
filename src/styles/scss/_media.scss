@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
 	#content {
-		padding: 0;
+		padding: 20px;
 	}
 
 	nav {
@@ -48,7 +48,9 @@
 						flex-direction: column;
 
 						li {
+							display: block;
 							margin-bottom: 20px;
+							margin-right: 0;
 							a {
 								color: #6D6D6D;
 								@include adaptive-value('font-size', 37, 20, 1);
@@ -121,7 +123,7 @@
 
 	header {
 		#content {
-			padding: 20px;
+
 			.header__content {
 				max-width: 100%;
 			}
@@ -138,9 +140,8 @@
 
 	article {
 		#content {
-
 			section {
-				margin: 20px 15px;
+				margin: 0 0 20px 0;
 			}
 		}
 	}
@@ -170,7 +171,7 @@
 			}
 
 			.circle {
-				left: 43%;
+				left: 46%;
 			}
 		}
 	}

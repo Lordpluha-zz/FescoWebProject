@@ -1,13 +1,16 @@
 article {
 	margin-top: 100vh;
 	position: relative;
+	width: 100%;
 	z-index: 5;
 	background-color: #fff;
 
 	#content {
 		.about_us {
 			#about_us {
-				display: none;
+				width: 0;
+				height: 0;
+				border: none;
 			}
 
 			.section__content {
@@ -37,7 +40,9 @@ article {
 				justify-content: space-around;
 
 				.specs__elem {
-					margin: 20px;
+					position: relative;
+					display: block;
+					margin: 15px;
 				}
 			}
 		}
