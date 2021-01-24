@@ -263,6 +263,36 @@ nav #content .nav__navbar .navbar__elems ul li a:active
 {position: relative;z-index: 5;
 
     margin-top: 100vh;background-color: #fff;
+}article #content .about_us #about_us
+{
+    display: none;
+}article #content .about_us aside .preview
+{
+    background-image: url();
+}article #content .our_sepialities .specs__menu
+{
+    display: flex;justify-content: space-around;
+}article #content .our_sepialities .specs__menu .specs__elem
+{
+    margin: 20px;
+}article #content .our_menu
+{width: 100%;
+    height: 200vh;
+}article #content .our_menu .section__header
+{
+    display: block;margin: 0 auto;
+}article #content .our_menu div
+{width: 100%;
+    height: 100vh;
+}article #content .our_menu div h1
+{
+    text-align: center;
+}article #content .our_menu div div
+{
+    display: grid;width: 100%;grid-template-rows: 4;grid-template-columns: 2;grid-gap: 15px;
+}article #content .our_menu div div div
+{
+    width: 50%;
 }@media (max-width: 768px)
 {
     #content
@@ -348,6 +378,9 @@ nav #content .nav__navbar .navbar__elems ul li a:active
     }header #content .circle
     {
         left: 43%;
+    }article #content section
+    {
+        margin: 20px 15px;
     }
 }@media (max-height: 650px)
 {

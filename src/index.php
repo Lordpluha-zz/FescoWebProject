@@ -59,7 +59,7 @@
 					
 					<div class="navbar__elems">
 						<ul>
-							<li><a href="#">Home</a></li>
+							<li><a href="#" class="active">Home</a></li>
 							<li><a href="#">About Us</a></li>
 							<li><a href="#">Menu</a></li>
 							<li><a href="#">Reservation</a></li>
