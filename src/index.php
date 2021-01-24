@@ -73,7 +73,6 @@
 				</div>
 
 			</div>
-
 		</nav>
 
 		<header>
@@ -413,17 +412,14 @@
 				</section>
 
 			</div>
-
 		</article>
 
 		<footer>
-			
 			<div id="content">
 				
 
 
 			</div>
-
 		</footer>
 	</div>	
 

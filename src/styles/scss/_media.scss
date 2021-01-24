@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
 	#content {
-		padding: 20px;
+		
 	}
 
 	nav {
@@ -8,6 +8,8 @@
 		z-index: 20;
 
 		#content {
+			padding-left: 0;
+			
 			.nav__brand {
 				margin-left: 20px;
 
@@ -123,9 +125,9 @@
 
 	header {
 		#content {
-
 			.header__content {
 				max-width: 100%;
+				padding: 20px;
 			}
 
 			.circle {
