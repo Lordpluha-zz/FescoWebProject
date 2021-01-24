@@ -1,0 +1,69 @@
+header {
+	height: 100vh;
+	width: 100%;
+	background-image: url('../../img/header/BG.jpg');
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+
+	#content {
+		@include adaptive-value('padding-top', 215, 60, 1);
+
+		.header__content {
+			max-width: 60%;
+			
+			.header__ico {
+				display: block;
+				margin: 0 auto;
+			}
+
+			h1 {
+				@include adaptive-value('font-size', 56, 40, 1);
+				@include adaptive-value('margin-top', 65, 65, 1);
+				color: #bf9e7b;
+			}
+
+			h3 {
+				@include adaptive-value('font-size', 20, 15, 1);
+				@include adaptive-value('margin-top', 15, 10, 1);
+				color: #fff;
+			}
+
+			p {
+				@include adaptive-value('margin-top', 45, 30, 1);
+				@include adaptive-value('font-size', 15, 15, 1);
+				font-weight: 700;
+			}
+		}
+
+		.circle {
+			position: absolute;
+			bottom: 10%;
+			left: 46%;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			border: 2px solid #fff;
+			
+
+			.to_about_us {
+				display: block;
+				width: 100%;
+				height: 100%;
+				border: none;
+				padding-top: 20%;
+
+
+				.arrow {
+					border-bottom: 2px solid #fff;
+					border-right: 2px solid #fff;
+					width: 25px;
+					height: 25px;
+					margin: -5px auto 5px;
+					transform: rotate(45deg);
+				}
+			}
+		}
+	}
+}
