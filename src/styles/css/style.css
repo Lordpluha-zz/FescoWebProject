@@ -262,235 +262,389 @@ nav #content .nav__navbar .navbar__elems ul li a:active
 }article
 {position: relative;z-index: 5;width: 100%;
     margin-top: 100vh;background-color: #fff;
-}article #content .about_us
+}article .about_us
 {
-    display: flex;width: 100%;height: 100vh;justify-content: space-around;
-}article #content .about_us #about_us
+    display: block;width: 100%;height: 100vh;
+}article .about_us #content
+{
+    display: flex;width: 100%;height: 100%;justify-content: space-around;
+}article .about_us #content #about_us
 {position: absolute;
 
     width: 0;height: 0;border: none;
-}article #content .about_us .section__content
+}article .about_us #content .section__content
 {
     max-width: 45%;
-}article #content .about_us .section__content .section__header .section__title
+}article .about_us #content .section__content .section__header .section__title
 {font-size: 56px;margin-top: 90px;margin-bottom: 30px;text-align: center;
 
     color: #bf9e7b;
 }@media (max-width: 941px)
 {
-    article #content .about_us .section__content .section__header .section__title
+    article .about_us #content .section__content .section__header .section__title
     {
         margin-top: calc(20px + 70 * ((100vw - 320px) / 621));
     }
 }@media (max-width: 941px)
 {
-    article #content .about_us .section__content .section__header .section__title
+    article .about_us #content .section__content .section__header .section__title
     {
         font-size: calc(30px + 26 * ((100vw - 320px) / 621));
     }
 }@media (max-width: 941px)
 {
-    article #content .about_us .section__content .section__header .section__title
+    article .about_us #content .section__content .section__header .section__title
     {
         margin-bottom: calc(20px + 10 * ((100vw - 320px) / 621));
     }
-}article #content .about_us .section__content p
+}article .about_us #content .section__content p
 {font-size: 17px;margin-bottom: 40px;
 
     text-align: center;color: #808080;
 }@media (max-width: 941px)
 {
-    article #content .about_us .section__content p
+    article .about_us #content .section__content p
     {
         font-size: calc(10px + 7 * ((100vw - 320px) / 621));
     }
 }@media (max-width: 941px)
 {
-    article #content .about_us .section__content p
+    article .about_us #content .section__content p
     {
         margin-bottom: calc(20px + 20 * ((100vw - 320px) / 621));
     }
-}article #content .about_us aside
+}article .about_us #content aside
 {
     max-width: 45%;
-}article #content .about_us aside .contact_info
+}article .about_us #content aside .contact_info
 {width: 100%;
     margin-top: -45%;padding: 20px;color: #fff;background-color: #141723;
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info
+    article .about_us #content aside .contact_info
     {
         padding: calc(10px + 10 * ((100vw - 320px) / 621));
     }
-}article #content .about_us aside .contact_info h3
+}article .about_us #content aside .contact_info h3
 {font-size: 25px;
 
     color: #bf9e7b;
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info h3
+    article .about_us #content aside .contact_info h3
     {
         font-size: calc(15px + 10 * ((100vw - 320px) / 621));
     }
-}article #content .about_us aside .contact_info p
+}article .about_us #content aside .contact_info p
 {font-size: 13px;
 
     margin-top: 15px;margin-bottom: 15px;
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info p
+    article .about_us #content aside .contact_info p
     {
         margin-top: calc(10px + 5 * ((100vw - 320px) / 621));
     }
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info p
+    article .about_us #content aside .contact_info p
     {
         margin-bottom: calc(10px + 5 * ((100vw - 320px) / 621));
     }
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info p
+    article .about_us #content aside .contact_info p
     {
         font-size: calc(8px + 5 * ((100vw - 320px) / 621));
     }
-}article #content .about_us aside .contact_info .addr
+}article .about_us #content aside .contact_info .addr
 {
     margin-top: 15px;
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info .addr
+    article .about_us #content aside .contact_info .addr
     {
         margin-top: calc(10px + 5 * ((100vw - 320px) / 621));
     }
-}article #content .about_us aside .contact_info .addr h6
+}article .about_us #content aside .contact_info .addr h6
 {
     font-size: 15px;
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info .addr h6
+    article .about_us #content aside .contact_info .addr h6
     {
         font-size: calc(10px + 5 * ((100vw - 320px) / 621));
     }
-}article #content .about_us aside .contact_info .addr p
+}article .about_us #content aside .contact_info .addr p
 {
     font-size: 13px;margin-bottom: 2px;
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info .addr p
+    article .about_us #content aside .contact_info .addr p
     {
         font-size: calc(8px + 5 * ((100vw - 320px) / 621));
     }
-}article #content .about_us aside .contact_info .addr a
+}article .about_us #content aside .contact_info .addr a
 {font-size: 13px;
 
     color: #bf9e7b;border: none;border-bottom: 1px solid #bf9e7b;
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info .addr a
+    article .about_us #content aside .contact_info .addr a
     {
         font-size: calc(8px + 5 * ((100vw - 320px) / 621));
     }
-}article #content .about_us aside .contact_info .addr .open_hours
+}article .about_us #content aside .contact_info .addr .open_hours
 {
     margin-top: 15px;
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info .addr .open_hours
+    article .about_us #content aside .contact_info .addr .open_hours
     {
         margin-top: calc(10px + 5 * ((100vw - 320px) / 621));
     }
-}article #content .about_us aside .contact_info .addr .open_hours h6
+}article .about_us #content aside .contact_info .addr .open_hours h6
 {
     font-size: 15px;
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info .addr .open_hours h6
+    article .about_us #content aside .contact_info .addr .open_hours h6
     {
         font-size: calc(10px + 5 * ((100vw - 320px) / 621));
     }
-}article #content .about_us aside .contact_info .addr .open_hours p
+}article .about_us #content aside .contact_info .addr .open_hours p
 {
     font-size: 13px;
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info .addr .open_hours p
+    article .about_us #content aside .contact_info .addr .open_hours p
     {
         font-size: calc(8px + 5 * ((100vw - 320px) / 621));
     }
-}article #content .about_us aside .contact_info .addr .Reservation
+}article .about_us #content aside .contact_info .addr .Reservation
 {
-    display: block;width: 171px;height: 43px;margin: 0 auto;margin-top: 20px;padding-top: 5px;padding-bottom: 13px;border: 1px solid #be9d7a;
+    display: block;width: 171px;height: 43px;margin: 0 auto;margin-top: 20px;padding-top: 5px;padding-bottom: 10px;border: 1px solid #be9d7a;
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info .addr .Reservation
+    article .about_us #content aside .contact_info .addr .Reservation
     {
         margin-top: calc(10px + 10 * ((100vw - 320px) / 621));
     }
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info .addr .Reservation
+    article .about_us #content aside .contact_info .addr .Reservation
     {
-        width: calc(150px + 21 * ((100vw - 320px) / 621));
+        width: calc(100px + 71 * ((100vw - 320px) / 621));
     }
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info .addr .Reservation
+    article .about_us #content aside .contact_info .addr .Reservation
     {
         height: calc(20px + 23 * ((100vw - 320px) / 621));
     }
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info .addr .Reservation
+    article .about_us #content aside .contact_info .addr .Reservation
     {
-        padding-top: calc(15px + -10 * ((100vw - 320px) / 621));
+        padding-top: calc(5px + 0 * ((100vw - 320px) / 621));
     }
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info .addr .Reservation
+    article .about_us #content aside .contact_info .addr .Reservation
     {
-        padding-bottom: calc(8px + 5 * ((100vw - 320px) / 621));
+        padding-bottom: calc(5px + 5 * ((100vw - 320px) / 621));
     }
-}article #content .about_us aside .contact_info .addr .Reservation a
+}article .about_us #content aside .contact_info .addr .Reservation a
 {font-size: 15px;
 
     text-align: center;color: #fff;border: none;
 }@media (max-width: 941px)
 {
-    article #content .about_us aside .contact_info .addr .Reservation a
+    article .about_us #content aside .contact_info .addr .Reservation a
     {
         font-size: calc(10px + 5 * ((100vw - 320px) / 621));
     }
-}article #content .about_us aside .preview
+}article .about_us #content aside .preview
 {width: 100%;height: 60%;
     margin-top: 20px;background-image: url('../../img/header/BG.jpg');
-}article #content .our_sepialities
+}article .our_sepialities
 {
-    margin-top: 30px;background-color: #4c4d4f;
-}article #content .our_sepialities .specs__menu
+    margin-top: 50px;background-color: #4c4d4f;
+}article .our_sepialities #content .section__header
 {
-    display: flex;justify-content: space-around;
-}article #content .our_sepialities .specs__menu .specs__elem
+    margin-top: 65px;
+}@media (max-width: 941px)
 {
-    position: relative;display: block;margin: 15px;
-}article #content .our_menu
+    article .our_sepialities #content .section__header
+    {
+        margin-top: calc(30px + 35 * ((100vw - 320px) / 621));
+    }
+}article .our_sepialities #content .section__header .section__title
+{font-size: 56px;
+
+    text-align: center;color: #fff;
+}@media (max-width: 941px)
+{
+    article .our_sepialities #content .section__header .section__title
+    {
+        font-size: calc(30px + 26 * ((100vw - 320px) / 621));
+    }
+}article .our_sepialities #content .section__header .section__intro
+{font-size: 15px;font-weight: 700;
+
+    display: block;width: 70%;margin: 0 auto;margin-top: 25px;text-align: center;
+}@media (max-width: 941px)
+{
+    article .our_sepialities #content .section__header .section__intro
+    {
+        margin-top: calc(10px + 15 * ((100vw - 320px) / 621));
+    }
+}@media (max-width: 941px)
+{
+    article .our_sepialities #content .section__header .section__intro
+    {
+        font-size: calc(10px + 5 * ((100vw - 320px) / 621));
+    }
+}article .our_sepialities #content .specs__menu
+{display: flex;margin: 0 auto;
+    margin-top: 40px;justify-content: space-around;
+}@media (max-width: 941px)
+{
+    article .our_sepialities #content .specs__menu
+    {
+        margin-top: calc(30px + 10 * ((100vw - 320px) / 621));
+    }
+}article .our_sepialities #content .specs__menu .specs__elem
+{
+    position: relative;display: block;min-height: 160px;margin: 15px;
+}@media (max-width: 941px)
+{
+    article .our_sepialities #content .specs__menu .specs__elem
+    {
+        min-height: calc(100px + 60 * ((100vw - 320px) / 621));
+    }
+}article .our_sepialities #content .specs__menu .specs__elem .specs__preview
+{height: 70%;
+
+    background-color: #141723;background-image: url('../../img/header/BG.jpg');
+}article .our_sepialities #content .specs__menu .specs__elem .specs__preview img
+{
+    display: none;
+}article .our_sepialities #content .specs__menu .specs__elem .spec__about
+{
+    display: block;width: 100%;height: 30%;padding: 20px 5px;background-color: #fff;
+}article .our_sepialities #content .specs__menu .specs__elem .spec__about p
+{font-size: 15px;
+
+    text-align: center;color: #bf9e7b;
+}@media (max-width: 941px)
+{
+    article .our_sepialities #content .specs__menu .specs__elem .spec__about p
+    {
+        font-size: calc(10px + 5 * ((100vw - 320px) / 621));
+    }
+}article .our_menu
 {width: 100%;
-    height: 200vh;
-}article #content .our_menu .section__header
+    height: 200vh;background-color: #141723;
+}article .our_menu #content
 {
-    display: block;margin: 0 auto;
-}article #content .our_menu div
+    padding: 0 20px;padding-top: 60px;
+}@media (max-width: 941px)
+{
+    article .our_menu #content
+    {
+        padding-top: calc(40px + 20 * ((100vw - 320px) / 621));
+    }
+}article .our_menu #content .section__header
+{
+    display: block;width: 100%;height: auto;
+}article .our_menu #content .section__header .section__title
+{font-size: 60px;text-align: center;
+
+    color: #bf9e7b;
+}@media (max-width: 941px)
+{
+    article .our_menu #content .section__header .section__title
+    {
+        font-size: calc(30px + 30 * ((100vw - 320px) / 621));
+    }
+}article .our_menu #content .section__header .section__intro
+{font-size: 15px;
+
+    margin: 0 auto;margin-top: 30px;text-align: center;color: #fff;
+}@media (max-width: 941px)
+{
+    article .our_menu #content .section__header .section__intro
+    {
+        margin-top: calc(20px + 10 * ((100vw - 320px) / 621));
+    }
+}@media (max-width: 941px)
+{
+    article .our_menu #content .section__header .section__intro
+    {
+        font-size: calc(10px + 5 * ((100vw - 320px) / 621));
+    }
+}article .our_menu #content div
 {width: 100%;
     height: 100vh;
-}article #content .our_menu div h1
+}article .our_menu #content div h1
 {
     text-align: center;
-}article #content .our_menu div div
+}article .our_menu #content div div
 {
     display: grid;width: 100%;grid-template-rows: 4;grid-template-columns: 2;grid-gap: 15px;
-}article #content .our_menu div div div
+}article .our_menu #content div div div
 {
     width: 50%;
+}article .our_menu #content .pizzas
+{
+    margin-top: 80px;
+}@media (max-width: 941px)
+{
+    article .our_menu #content .pizzas
+    {
+        margin-top: calc(40px + 40 * ((100vw - 320px) / 621));
+    }
+}article .our_menu #content .pizzas .menu__title
+{font-family: 'Raleway', sans-serif;font-weight: 600;
+
+    text-align: center;text-transform: uppercase;
+}@media (max-width: 425px)
+{
+    article .about_us #content
+    {
+        display: block;padding: 0 0 20px 0;
+    }article .about_us #content .section__content
+    {
+        max-width: 100%;padding: 20px;
+    }
+}@media (max-width: 425px) and (max-width: 941px)
+{
+    article .about_us #content .section__content
+    {
+        padding: calc(15px + 5 * ((100vw - 320px) / 621));
+    }
+}@media (max-width: 425px)
+{
+    article .about_us #content aside
+    {width: 100%;
+        max-width: 100%;
+    }article .about_us #content aside .contact_info
+    {
+        margin-top: 0;padding: 20px;
+    }
+}@media (max-width: 425px) and (max-width: 941px)
+{
+    article .about_us #content aside .contact_info
+    {
+        padding: calc(15px + 5 * ((100vw - 320px) / 621));
+    }
+}@media (max-width: 425px)
+{
+    article .our_sepialities
+    {
+        margin-top: 0;
+    }
 }@media (max-width: 768px)
 {
     nav

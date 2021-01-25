@@ -4,13 +4,17 @@ article {
 	width: 100%;
 	z-index: 5;
 	background-color: #fff;
+	
+	.about_us {
+		display: block;
+		width: 100%;
+		height: 100vh;
 
-	#content {
-		.about_us {
+		#content {
 			display: flex;
 			justify-content: space-around;
 			width: 100%;
-			height: 100vh;
+			height: 100%;
 
 			#about_us {
 				width: 0;
@@ -48,6 +52,7 @@ article {
 					width: 100%;
 					background-color: #141723;
 					color: #fff;
+
 					@include adaptive-value('padding', 20, 10, 1);
 
 					h3 {
@@ -102,10 +107,10 @@ article {
 							margin: 0 auto;
 							@include adaptive-value('margin-top', 20, 10, 1);
 
-							@include adaptive-value('width', 171, 150, 1);
+							@include adaptive-value('width', 171, 100, 1);
 							@include adaptive-value('height', 43, 20, 1);
-							@include adaptive-value('padding-top', 5, 15, 1);
-							@include adaptive-value('padding-bottom', 13, 8, 1);
+							@include adaptive-value('padding-top', 5, 5, 1);
+							@include adaptive-value('padding-bottom', 10, 5, 1);
 							border: 1px solid #be9d7a;
 
 							a {
@@ -126,53 +131,100 @@ article {
 				}
 			}
 		}
-		
+	}
 
-		.our_sepialities {
-			margin-top: 30px;
-			background-color: #4c4d4f;
+	.our_sepialities {
+		margin-top: 50px;
+		background-color: #4c4d4f;
 
+		#content {
 			.section__header {
+				@include adaptive-value('margin-top', 65, 30, 1);
 				.section__title {
-
+					text-align: center;
+					@include adaptive-value('font-size', 56, 30, 1);
+					color: #fff;
 				}
 
 				.section__intro {
-
+					display: block;
+					margin: 0 auto;
+					text-align: center;
+					width: 70%;
+					@include adaptive-value('margin-top', 25, 10, 1);
+					@include adaptive-value('font-size', 15, 10, 1);
+					font-weight: 700;
 				}
 			}
 
 			.specs__menu {
+				@include adaptive-value('margin-top', 40, 30, 1);
 				display: flex;
 				justify-content: space-around;
+				margin: 0 auto;
 
 				.specs__elem {
 					position: relative;
 					display: block;
 					margin: 15px;
+					@include adaptive-value('min-height', 160, 100, 1);
 
 					.specs__preview {
-						img {
+						background-color: #141723;
+						height: 70%;
+						background-image: url("../../img/header/BG.jpg");
 
+						img {
+							display: none;
 						}
 					}
 
 					.spec__about {
-						p {
+						display: block;
+						width: 100%;
+						height: 30%;
+						background-color: #fff;
+						padding: 20px 5px;
 
+						p {
+							text-align: center;
+							color: #bf9e7b;
+							@include adaptive-value('font-size', 15, 10, 1);
 						}
 					}
 				}
 			}
 		}
+	}
 
-		.our_menu {
-			height: 200vh;
-			width: 100%;
+	.our_menu {
+		height: 200vh;
+		width: 100%;
+		background-color: #141723;
+
+		#content {
+			padding: 0 20px;
+			@include adaptive-value('padding-top', 60, 40, 1);
 
 			.section__header {
 				display: block;
-				margin: 0 auto;
+				width: 100%;
+				height: auto;
+				
+				.section__title {
+					color: #bf9e7b;
+					text-align: center;
+					@include adaptive-value('font-size', 60, 30, 1);
+				}
+
+				.section__intro {
+					margin: 0 auto;
+					text-align: center;
+					color: #fff;
+					@include adaptive-value('margin-top', 30, 20, 1);
+					@include adaptive-value('font-size', 15, 10, 1);
+				}
+				
 			}
 
 			div {
@@ -201,12 +253,17 @@ article {
 			}
 
 			.pizzas {
-				
+				@include adaptive-value('margin-top', 80, 40, 1);
+
 
 				.menu__title {
-					
-					.decor_dots {
+					text-align: center;
+					text-transform: uppercase;
+					font-family: 'Raleway', sans-serif;
+					font-weight: 600;
 
+					.decor_dots {
+						
 					}
 				}
 				.pizzas__list {

@@ -99,60 +99,60 @@
 		</header>
 
 		<article>
-				
-			<div id="content">
-				
-				<section class="about_us">
+			<section class="about_us">
 					<!-- Scroll index -->
-					<a href="#" name="about_us" class="index" id="about_us"></a>
+					<div id="content">
+						<a href="#" name="about_us" class="index" id="about_us"></a>
 
-					<div class="section__content">
-						<div class="section__header">
-							<h1 class="section__title">About Us</h1>
-						</div>
-
-						<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-
-						<p>Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Pellentesque in ipsum id orci porta dapibus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Cras ultricies ligula sed magna dictum porta.</p>
-						<p>Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, dictum porta.</p>
-					</div>
-
-					<aside>
-						
-						<div class="contact_info">
-							<h3>Contact</h3>
-							<p>Vestibulum ante ipsum primis in faucibus orciluctus et ultrices posuere cubilia.</p>
-
-							<div class="addr">
-								<h6>Address:</h6>
-
-								<p>17 Awesome Street, Belgrade</p>
-								<p>SR 877900</p>
-
-								<a href="#">view map</a>
-
-								<div class="open_hours">
-									<h6>OPENING HOURS:</h6>
-
-									<p class="hours1">Monday - Friday........................8:00am - 11:00 pm</p>
-									<p class="hours2">Saturday - Sunday......................8:00am - 10:00 pm</p>
-								</div>
-
-								<button class="Reservation">
-									<a href="#">
-										Table Reservation
-									</a>
-								</button>
+						<div class="section__content">
+							<div class="section__header">
+								<h1 class="section__title">About Us</h1>
 							</div>
+
+							<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+
+							<p>Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Pellentesque in ipsum id orci porta dapibus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Cras ultricies ligula sed magna dictum porta.</p>
+							<p>Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, dictum porta.</p>
 						</div>
 
-						<div class="preview">
-							<!-- bgimg -->
-						</div>
-					</aside>
-				</section>
+						<aside>
+							
+							<div class="contact_info">
+								<h3>Contact</h3>
+								<p>Vestibulum ante ipsum primis in faucibus orciluctus et ultrices posuere cubilia.</p>
 
-				<section class="our_sepialities">
+								<div class="addr">
+									<h6>Address:</h6>
+
+									<p>17 Awesome Street, Belgrade</p>
+									<p>SR 877900</p>
+
+									<a href="#">view map</a>
+
+									<div class="open_hours">
+										<h6>OPENING HOURS:</h6>
+
+										<p class="hours1">Monday - Friday........................8:00am - 11:00 pm</p>
+										<p class="hours2">Saturday - Sunday......................8:00am - 10:00 pm</p>
+									</div>
+
+									<button class="Reservation">
+										<a href="#">
+											Table Reservation
+										</a>
+									</button>
+								</div>
+							</div>
+
+							<div class="preview">
+								<!-- bgimg -->
+							</div>
+						</aside>
+					</div>
+			</section>
+
+			<section class="our_sepialities">
+				<div id="content">
 					<div class="section__header">
 						<h1 class="section__title">Our Specialities</h1>
 
@@ -164,7 +164,7 @@
 					<div class="specs__menu">
 						<div class="specs__elem">
 							<div class="specs__preview">
-								<img src="img/article/specs/" alt="">
+								<img src="img/header/BG.jpg" alt="">
 							</div>
 
 							<div class="spec__about">
@@ -174,7 +174,7 @@
 
 						<div class="specs__elem">
 							<div class="specs__preview">
-								<img src="img/article/specs/" alt="">
+								<img src="img/header/BG.jpg" alt="">
 							</div>
 
 							<div class="spec__about">
@@ -184,7 +184,7 @@
 
 						<div class="specs__elem">
 							<div class="specs__preview">
-								<img src="img/article/specs/" alt="">
+								<img src="img/header/BG.jpg" alt="">
 							</div>
 
 							<div class="spec__about">
@@ -194,26 +194,27 @@
 
 						<div class="specs__elem">
 							<div class="specs__preview">
-								<img src="img/article/specs/" alt="">
+								<img src="img/header/BG.jpg" alt="">
 							</div>
 
 							<div class="spec__about">
 								<p>Lasagna ............... 19.99$</p>
 							</div>
 						</div>
-					</div>					
-				</section>
+						</div>
+				</div>	
+			</section>
 
-				<section class="our_menu">
-					
+			<section class="our_menu">
+				<div id="content">
 					<div class="section__header">
 						<h1 class="section__title">Our Menu</h1>
 
-						<p class="section__intro"></p>						
+						<p class="section__intro">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>						
 					</div>
 
 					<div class="pizzas">
-						<h1 class="menu__title"><span class="decor_dots"></span>Pizza<span class="decor_dots"></span></h1>
+						<h1 class="menu__title">..........Pizza..........</h1>
 
 						<div class="pizzas__list">
 							<div class="pizza__type">
@@ -403,15 +404,16 @@
 					<button class="menu_more">
 						<a href="#" class="more">View All Menu</a>
 					</button>
-				</section>
+				</div>
+			</section>
 
-				<section class="book_a_table">
+			<section class="book_a_table">
 					
+					<div id="content">
+						
+					</div>
+			</section>
 
-
-				</section>
-
-			</div>
 		</article>
 
 		<footer>
