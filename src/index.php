@@ -308,7 +308,7 @@
 					</div>
 
 					<div class="deserts">
-						<h1 class="menu__title"><span class="decor_dots"></span>Desserts<span class="decor_dots"></span></h1>
+						<h1 class="menu__title">..........Desserts..........</h1>
 
 						<div class="deserts__list">
 							<div class="desert__type">
