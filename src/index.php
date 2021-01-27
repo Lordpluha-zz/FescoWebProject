@@ -409,9 +409,58 @@
 
 			<section class="book_a_table">
 					
-					<div id="content">
-						
+				<div id="content">
+					<div class="section__header">
+						<h1 class="section__title">Book a Table</h1>
+
+						<p class="section__intro">Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>						
 					</div>
+
+					<form action="php/book_table.php" class="book_a_table">
+						
+						<div class="select_box">
+							<div class="date">
+								<label for="date">Choose a date</label>
+
+								<select name="date" required tabindex="1">
+									<option>17/02/2017</option>
+									<option>18/02/2017</option>
+									<option>19/02/2017</option>
+									<option>20/02/2017</option>
+									<option>21/02/2017</option>
+								</select>
+							</div>
+
+							<div class="time">
+								<label for="time">Choose a time</label>
+
+								<select name="time" required tabindex="2">
+									<option>6:00 <span class="half_of_day">pm</span></option>
+									<option>7:00 <span class="half_of_day">pm</span></option>
+									<option>8:00 <span class="half_of_day">pm</span></option>
+									<option>9:00 <span class="half_of_day">pm</span></option>
+									<option>10:00 <span class="half_of_day">pm</span></option>
+								</select>
+							</div>
+
+							<div class="num_of_people">
+								<label for="people">Number of people</label>
+
+								<select name="people" required tabindex="3">
+									<option>1 <span class="people">People</span></option>
+									<option>2 <span class="people">Peoples</span></option>
+									<option>3 <span class="people">Peoples</span></option>
+									<option>4 <span class="people">Peoples</span></option>
+									<option>5 <span class="people">Peoples</span></option>
+									<option>6 <span class="people">Peoples</span></option>
+								</select>
+							</div>
+						</div>
+
+						<button type="submit">Book now</button>
+
+					</form>
+				</div>
 			</section>
 
 		</article>
@@ -419,7 +468,7 @@
 		<footer>
 			<div id="content">
 				
-
+				
 
 			</div>
 		</footer>

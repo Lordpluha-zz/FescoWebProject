@@ -318,9 +318,92 @@ article {
 	}
 
 	.book_a_table {
-		padding: 0;
+		display: block;
+		background-color: #4c4d4f;
+
 		#content {
-			padding: 0;
+			display: block;
+			width: 100%;
+			height: auto;
+			@include adaptive-value('padding-top', 52, 30, 1);
+			
+			.section__header {
+				display: block;
+				width: 100%;
+				height: auto;
+				
+				
+				.section__title {
+					color: #fff;
+					text-align: center;
+					@include adaptive-value('font-size', 60, 30, 1);
+				}
+
+				.section__intro {
+					margin: 0 auto;
+					text-align: center;
+					color: #000;
+					font-weight: 500;
+					@include adaptive-value('margin-top', 30, 20, 1);
+					@include adaptive-value('font-size', 15, 10, 1);
+				}
+				
+			}
+
+			form.book_a_table {
+				display: block;
+				@include adaptive-value('margin-top', 75, 50, 1);
+				border: none;
+				width: 100%;
+				font-family: 'Raleway', sans-serif;
+
+				.select_box {
+					display: flex;
+					justify-content: space-between;
+					width: 100%;
+
+					div {
+						width: 32%;
+
+						label {
+							font-weight: 400;
+							text-transform: uppercase;
+							@include adaptive-value('font-size', 15, 10, 1);
+							color: #fff;
+						}
+
+						select {
+							display: block;
+							margin: 18px auto;
+							width: 100%;
+							padding: 10px 20px;
+							background-color: #fff;
+
+							option {
+
+							}
+						}
+					}
+				}
+
+				button {
+					display: block;
+					margin: 0 auto;
+					border: none;
+
+					@include adaptive-value('margin-top', 20, 10, 1);
+					@include adaptive-value('margin-bottom', 20, 10, 1);
+
+					@include adaptive-value('padding', 50, 30, 1);
+					@include adaptive-value('padding-top', 15, 10, 1);
+					@include adaptive-value('padding-bottom', 15, 10, 1);
+					background-color: #be9d7a;
+					color: #000;
+					@include adaptive-value('font-size', 20, 10, 1);
+
+
+				}
+			}
 		}
 	}
 }
