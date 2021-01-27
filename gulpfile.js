@@ -226,6 +226,8 @@ function build(event) {
     .pipe( gulp.dest(`./dist/${js_dir}/`) );
 
   // Php
+  gulp.src(`./src/${php_dir}/**`)
+    .pipe( gulp.dest(`./dist/${php_dir}/`) );
     
   // Img
   gulp.src(`./src/${img_dir}/**`)
@@ -248,7 +250,7 @@ function build(event) {
 
 // Стандартные функции, выполняющиеся последовательно
 gulp.task('default', gulp.parallel(browser, fileWatcher));
-gulp.task(build);
+gulp.task(build, gulp.series(build, build));
 gulp.task('img', gulp.series(img, del_min_dirs));
 gulp.task(fonts);
 
