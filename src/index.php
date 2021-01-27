@@ -59,11 +59,11 @@
 					
 					<div class="navbar__elems">
 						<ul>
-							<li><a href="#" class="active">Home</a></li>
-							<li><a href="#">About Us</a></li>
-							<li><a href="#">Menu</a></li>
-							<li><a href="#">Reservation</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="#header" class="active">Home</a></li>
+							<li><a href="#about_us">About Us</a></li>
+							<li><a href="#menu">Menu</a></li>
+							<li><a href="#reservation">Reservation</a></li>
+							<li><a href="#footer">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -75,8 +75,8 @@
 			</div>
 		</nav>
 
-		<header>
-			
+		<header class="point_blocks">
+			<a href="#" name="header" class="index" id="header"></a>
 			<div id="content">
 				<div class="header__content">
 					<img src="img/header/Icon.png" alt="" class="header__ico">
@@ -99,11 +99,11 @@
 		</header>
 
 		<article>
-			<section class="about_us">
+			<section class="about_us point_blocks">
 					<!-- Scroll index -->
-					<div id="content">
-						<a href="#" name="about_us" class="index" id="about_us"></a>
+					<a href="#" name="about_us" class="index" id="about_us"></a>
 
+					<div id="content">
 						<div class="section__content">
 							<div class="section__header">
 								<h1 class="section__title">About Us</h1>
@@ -137,7 +137,7 @@
 									</div>
 
 									<button class="Reservation">
-										<a href="#">
+										<a href="#reservation">
 											Table Reservation
 										</a>
 									</button>
@@ -201,11 +201,12 @@
 								<p>Lasagna ............... 19.99$</p>
 							</div>
 						</div>
-						</div>
+					</div>
 				</div>	
 			</section>
 
-			<section class="our_menu">
+			<section class="our_menu point_blocks">
+				<a href="#" name="menu" class="index" id="menu"></a>
 				<div id="content">
 					<div class="section__header">
 						<h1 class="section__title">Our Menu</h1>
@@ -407,8 +408,8 @@
 				</div>
 			</section>
 
-			<section class="book_a_table">
-					
+			<section class="book_a_table point_blocks">
+				<a href="#" name="reservation" class="index" id="reservation"></a>
 				<div id="content">
 					<div class="section__header">
 						<h1 class="section__title">Book a Table</h1>
@@ -466,6 +467,7 @@
 		</article>
 
 		<footer>
+			<a href="#" name="footer" class="index" id="footer"></a>
 			<div id="content">
 				
 				

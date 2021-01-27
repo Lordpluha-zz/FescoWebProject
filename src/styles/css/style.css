@@ -768,7 +768,7 @@ article .our_menu #content .deserts div div .desert__costs
 }article .book_a_table #content form.book_a_table
 {font-family: 'Raleway', sans-serif;
 
-    display: block;width: 100%;margin-top: 75px;border: none;
+    display: block;width: 100%;margin-top: 75px;cursor: normal;border: none;
 }@media (max-width: 941px)
 {
     article .book_a_table #content form.book_a_table

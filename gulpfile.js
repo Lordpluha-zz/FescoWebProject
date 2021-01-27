@@ -250,7 +250,7 @@ function build(event) {
 
 // Стандартные функции, выполняющиеся последовательно
 gulp.task('default', gulp.parallel(browser, fileWatcher));
-gulp.task(build, gulp.series(build, build));
+gulp.task('build', gulp.series(build, build));
 gulp.task('img', gulp.series(img, del_min_dirs));
 gulp.task(fonts);
 
