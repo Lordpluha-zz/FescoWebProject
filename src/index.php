@@ -470,8 +470,68 @@
 			<a href="#" name="footer" class="index" id="footer"></a>
 			<div id="content">
 				
-				
+				<div class="addrs">
+					<h3>Address:</h3>
 
+					<p>17 Awesome Street, Belgrade</p>
+					<p>SR 877900</p>
+
+					<button>
+						<a href="#">
+							View map
+						</a>
+					</button>
+
+				</div>
+
+				<div class="open_hours">
+					<h3>Opening hours:</h3>
+
+					<p>Monday - Friday......................................8:00am - 11:00 pm</p>
+					<p>Saturday - Sunday....................................8:00am - 10:00 pm</p>
+
+					<button>
+						<a href="#reservation">
+							Table Reservation
+						</a>
+					</button>
+				</div>
+
+				<div class="social">
+					<h3>We are social:</h3>
+
+					<p>Feel free to check our social media pages</p>
+
+					<div class="social_box">
+						<div class="social_site">
+							<a href="#">
+								<img src="img/footer/social/g+.min.png" alt="">
+							</a>
+						</div>
+
+						<div class="social_site">
+							<a href="#">
+								<img src="img/footer/social/facebook.min.png" alt="">
+							</a>
+						</div>
+
+						<div class="social_site">
+							<a href="#">
+								<img src="img/footer/social/twit.min.png" alt="">
+							</a>
+						</div>
+
+						<div class="social_site">
+							<a href="#">
+								<img src="img/footer/social/ytb.min.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="copyright">
+					<p>© 2017 - Fesco All Right Reserved</p>
+				</div>
 			</div>
 		</footer>
 	</div>	

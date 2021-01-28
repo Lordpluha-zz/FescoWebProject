@@ -326,7 +326,8 @@ article {
 			width: 100%;
 			height: auto;
 			@include adaptive-value('padding-top', 52, 30, 1);
-			
+			@include adaptive-value('padding-bottom', 20, 10, 1);
+
 			.section__header {
 				display: block;
 				width: 100%;
@@ -393,7 +394,6 @@ article {
 					border: none;
 
 					@include adaptive-value('margin-top', 20, 10, 1);
-					@include adaptive-value('margin-bottom', 20, 10, 1);
 
 					@include adaptive-value('padding', 50, 30, 1);
 					@include adaptive-value('padding-top', 15, 10, 1);

@@ -729,12 +729,18 @@ article .our_menu #content .deserts div div .desert__costs
     display: block;background-color: #4c4d4f;
 }article .book_a_table #content
 {
-    display: block;width: 100%;height: auto;padding-top: 52px;
+    display: block;width: 100%;height: auto;padding-top: 52px;padding-bottom: 20px;
 }@media (max-width: 941px)
 {
     article .book_a_table #content
     {
         padding-top: calc(30px + 22 * ((100vw - 320px) / 621));
+    }
+}@media (max-width: 941px)
+{
+    article .book_a_table #content
+    {
+        padding-bottom: calc(10px + 10 * ((100vw - 320px) / 621));
     }
 }article .book_a_table #content .section__header
 {
@@ -796,18 +802,12 @@ article .our_menu #content .deserts div div .desert__costs
 }article .book_a_table #content form.book_a_table button
 {font-size: 20px;
 
-    display: block;margin: 0 auto;margin-top: 20px;margin-bottom: 20px;padding: 50px;padding-top: 15px;padding-bottom: 15px;color: #000;border: none;background-color: #be9d7a;
+    display: block;margin: 0 auto;margin-top: 20px;padding: 50px;padding-top: 15px;padding-bottom: 15px;color: #000;border: none;background-color: #be9d7a;
 }@media (max-width: 941px)
 {
     article .book_a_table #content form.book_a_table button
     {
         margin-top: calc(10px + 10 * ((100vw - 320px) / 621));
-    }
-}@media (max-width: 941px)
-{
-    article .book_a_table #content form.book_a_table button
-    {
-        margin-bottom: calc(10px + 10 * ((100vw - 320px) / 621));
     }
 }@media (max-width: 941px)
 {
@@ -834,11 +834,84 @@ article .our_menu #content .deserts div div .desert__costs
         font-size: calc(10px + 10 * ((100vw - 320px) / 621));
     }
 }footer
-{
-    padding: 0;
+{position: relative;z-index: 7;
+
+    display: block;width: 100%;background-color: #141723;
+}footer a#footer
+{width: 0;height: 0;
+
+    border: none;
 }footer #content
 {
-    padding: 0;
+    display: flex;padding-bottom: 60px;justify-content: space-between;
+}footer #content div
+{
+    color: #fff;
+}footer #content div.social .social_box
+{
+    display: flex;width: 100%;margin-top: 20px;justify-content: space-around;
+}footer #content div.social .social_box .social_site
+{
+    display: block;width: auto;height: auto;border: 1px solid #bf9e7b;
+}footer #content div.social .social_box .social_site a
+{display: block;margin: 0 auto;padding: 5px 10px;
+
+    border: none;
+}footer #content div h3
+{font-family: 'Raleway', sans-serif;font-size: 15px;font-weight: 300;
+
+    text-transform: uppercase;
+}@media (max-width: 941px)
+{
+    footer #content div h3
+    {
+        font-size: calc(10px + 5 * ((100vw - 320px) / 621));
+    }
+}footer #content div p
+{font-family: 'Raleway', sans-serif;font-size: 13px;
+    font-weight: 600;margin-top: 10px;margin-bottom: 15px;
+}@media (max-width: 941px)
+{
+    footer #content div p
+    {
+        font-size: calc(8px + 5 * ((100vw - 320px) / 621));
+    }
+}footer #content div button
+{display: block;width: 90%;margin: 0 auto;
+    margin-top: 20px;padding: 20px;padding-top: 6px;padding-bottom: 12px;border: 1px solid #bf9e7b;border-right: none;border-left: none;
+}@media (max-width: 941px)
+{
+    footer #content div button
+    {
+        padding: calc(30px + -10 * ((100vw - 320px) / 621));
+    }
+}@media (max-width: 941px)
+{
+    footer #content div button
+    {
+        padding-top: calc(6px + 0 * ((100vw - 320px) / 621));
+    }
+}@media (max-width: 941px)
+{
+    footer #content div button
+    {
+        padding-bottom: calc(8px + 4 * ((100vw - 320px) / 621));
+    }
+}footer #content div button a
+{font-size: 13px;color: #fff;
+    border: none;
+}@media (max-width: 941px)
+{
+    footer #content div button a
+    {
+        font-size: calc(8px + 5 * ((100vw - 320px) / 621));
+    }
+}footer #content .copyright
+{
+    position: absolute;bottom: 5%;padding-left: 20px;
+}footer #content .copyright p
+{
+    color: #bf9e7b;
 }@media (max-width: 375px)
 {
     article .book_a_table #content form.book_a_table .select_box
@@ -978,6 +1051,12 @@ article .our_menu #content .deserts div div .desert__costs
     }article #content section
     {
         margin: 0 0 20px 0;
+    }footer #content
+    {
+        flex-direction: column;
+    }footer #content div
+    {
+        margin: 30px auto;
     }
 }@media (max-height: 650px)
 {

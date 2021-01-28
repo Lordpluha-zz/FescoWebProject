@@ -1,7 +1,5 @@
 jQuery(document).ready(function($) {
 
-	$('#header').scroll();
-
 	$(".scroll_down").on("click", "a", function (event) {
 	    event.preventDefault();
 
@@ -24,6 +22,15 @@ jQuery(document).ready(function($) {
     });
 
     $("article .contact_info .addr .Reservation").on("click", "a", function (event) {
+	    event.preventDefault();
+
+	    var id  = $(this).attr('href'),
+	        top = $(id).offset().top;
+	        
+	    $('body, html').animate({scrollTop: top}, 1100);
+    });
+
+    $("footer #content .open_hours button").on("click", "a", function (event) {
 	    event.preventDefault();
 
 	    var id  = $(this).attr('href'),

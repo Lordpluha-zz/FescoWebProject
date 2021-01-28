@@ -212,7 +212,13 @@
 	}
 
 	footer {
+		#content {
+			flex-direction: column;
 
+			div {
+				margin: 30px auto;
+			}
+		}
 	}	
 }
 
